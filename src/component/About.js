@@ -6,7 +6,7 @@ export default function About(props) {
      <div className={`container text-${props.mode === "light"? "dark":"white"}`}>
         <div className="container">
         <h1 className = "my-5">About Us</h1>
-         <h3>Welcome to the Convert Case Text Generator Too</h3>
+         <h3>Welcome to the Convert Case Text Generator </h3>
          <p>A very handy online text tool where you can change between lower case and upper case letters, where you can capitalize, uncapitalize, convert to mix case and transform your text. Explore the options below:</p>
         </div>
         <div className="container">

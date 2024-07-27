@@ -22,7 +22,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <Navbar title = "TextME" about = "About Us" mode = {mode} toggleMode = {toggleMode}/>
+      <Navbar title = "TextME" about = "About App" mode = {mode} toggleMode = {toggleMode}/>
         <Routes>
           <Route exact path='/' element={<Textform mode = {mode}/>}/> 
           {/* // Example-->  <Route path="/about" element={<About />}></Route>	 */}
